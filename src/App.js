@@ -44,6 +44,9 @@ function App() {
           <div>
             For some reason, styling was hard, bear with me
             <div>
+              <p>If you sign in or sign out, reload the page</p>
+            </div>
+            <div>
               <a
                 target="_blank"
                 rel="noreferrer"
