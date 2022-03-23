@@ -68,6 +68,9 @@ function App() {
           <div>
             For some reason, styling was hard, bear with me
             <div>
+              <p>If you sign in or sign out, reload the page</p>
+            </div>
+            <div>
               <a target="_blank" href="https://github.com/0xPr0f/web3auth">
                 {" "}
                 Link to the github
