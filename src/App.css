@@ -1,10 +1,55 @@
 .App {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-between;
   text-align: center;
 }
 
+.loginButton {
+  padding: 10px;
+  border-radius: 20px;
+  border-width: 0px;
+  color: white;
+  background-image: linear-gradient(90deg, #0364ff, #1ac7fe);
+  width: 100%;
+  cursor: pointer;
+}
+
+.buttonCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.error {
+  color: red;
+  font-size: 10px;
+}
+.backgroundParent {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(90deg, #1ac7fe, #b114fb);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.detailsDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.green {
+  color: green;
 }
 
 @media (prefers-reduced-motion: no-preference) {
