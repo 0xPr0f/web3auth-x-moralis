@@ -15,7 +15,7 @@ function App() {
     await Moralis.authenticate({
       provider: "web3Auth",
       clientId:
-        "BCCTJda96zeSqqYmB1ADCE_-wOQSfXp9-UbMqegE9A8-5AcdvftQgHphqDYtOWjvl5bqRocRYH5B394XOwT3Nr4",
+        "BCCTJda96ze//somefewwordsthatarehereastheclientididkwhyitisverylongwithnospacehopethisshouldhelpB394XOwT3Nr4",
     });
   };
 
