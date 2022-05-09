@@ -49,7 +49,7 @@ function App() {
       provider: "web3Auth",
       clientId:
         "BGny-kghxFcbCNbfNFn1t66jwqxtnr2744vQ9aHHr06u7jhe9iI1nm1zPKLkVKer0cW2F6Weip8FZ24rwfMwFEs",
-      chainId: 0x13881
+      chainId: "0x13881"
     }).then(() => {
       async function ball() {
         const options = {
