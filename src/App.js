@@ -48,7 +48,7 @@ function App() {
     authenticate({
       provider: "web3Auth",
       clientId:
-        "BGny-kghxFcbCNbfNFn1t66jwqxtnr2744vQ9aHHr06u7jhe9iI1nm1zPKLkVKer0cW2F6Weip8FZ24rwfMwFEs",
+        "BMvDHhe4iJfbFxDYRPMOdKrDVrPThEDuArmwmyn9vuvdE3BQ3EpQylEOjOEuWSKsxIj1XKH7PJt3CSC82F2ZNGc",
       chainId: "0x13881"
     }).then(() => {
       async function ball() {
